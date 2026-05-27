@@ -82,7 +82,7 @@ const STEPS = [
 
 export default function App() {
   const [scrolled, setScrolled] = useState(false);
-  const [menu, setMenu] = useState(false);
+  const [, setMenu] = useState(false);
 
   useEffect(() => {
     const h = () => setScrolled(window.scrollY > 30);
