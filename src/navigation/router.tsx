@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router";
-import App from "../app";
 import NotFound from "../components/not-found";
+import HomePage from "../pages/home-page";
 
 const router = createBrowserRouter([
-  { path: "/", element: <App /> },
+  { path: "/", element: <HomePage /> },
   { path: "*", element: <NotFound /> },
 ]);
 
