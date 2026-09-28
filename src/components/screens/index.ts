@@ -1,5 +1,5 @@
-export * from './home-screen'
-export * from './community-screen'
-export * from'./join-screen'
-export * from './about-screen'
-export * from './what-we-do-screen'
+export * from './home-screen';
+export * from './community-screen';
+export * from './join-screen';
+export * from './about-screen';
+export * from './what-we-do-screen';

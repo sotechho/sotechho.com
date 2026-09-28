@@ -1,4 +1,7 @@
 import { JoinScreen } from '@/src/components/screens';
+import { createPageMetadata, PAGE_SEO } from '@/src/lib/seo';
+
+export const metadata = createPageMetadata(PAGE_SEO.join);
 
 export default function JoinUsPage() {
   return (
