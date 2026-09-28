@@ -3,12 +3,12 @@ type SiteBrandProps = {
 };
 
 const SiteBrand = ({ compact = false }: SiteBrandProps) => (
-  <div className={`flex items-center ${compact ? "gap-2" : "gap-2.5"}`}>
+  <div className={`flex items-center ${compact ? 'gap-2' : 'gap-2.5'}`}>
     <div
       className={`flex items-center justify-center bg-[#111] font-extrabold text-white ${
         compact
-          ? "h-6 w-6 rounded-md text-[11px]"
-          : "h-7 w-7 rounded-lg text-[13px]"
+          ? 'h-6 w-6 rounded-md text-[11px]'
+          : 'h-7 w-7 rounded-lg text-[13px]'
       }`}
     >
       S
